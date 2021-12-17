@@ -7,7 +7,7 @@ We will build an application by using docker-compose. We will run the following 
 ### Create destro service 
 We create the destro service by using the **alpine:latest** image:
 ```
-distro:
+destro:
     image: alpine 
     restart : always 
     container_name: Custom_alpine 
