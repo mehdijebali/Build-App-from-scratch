@@ -1,6 +1,7 @@
 version : '3'
 
 services:
+  destro:
     image: alpine 
     restart : always 
     container_name: Custom_alpine 
